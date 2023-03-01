@@ -1,11 +1,11 @@
 :root {
-  --main-color: #2e2f42;
-  --secondary-color: white;
-  --link-hover-color: rgba(64, 75, 191, 1);
-  --additional-background-color: #f4f4fd;
-  --footer-text-color: #e7e9fc;
-  --main-btn-logo-txt-color: #4d5ae5;
-  --menu-btn-hover-color: #404bbf;
+  --main-color: #2e2f42; /* Logo/hero/footer/nav_items color*/
+  --secondary-color: white; /* Title/Button/Cards*/
+  --link-hover-color: rgba(64, 75, 191, 1); /* header links hover color*/
+  --additional-background-color: #f4f4fd; /* Team and menu button bg color, logo bottom 2nd part*/
+  --footer-text-color: #e7e9fc; /*Footer text color*/
+  --main-btn-logo-txt-color: #4d5ae5; /* Logo, service button , menu button color*/
+  --menu-btn-hover-color: #404bbf; /* Menu button hover color*/
 }
 
 a {
@@ -71,7 +71,7 @@ a {
   color: var(--main-color);
 }
 .logo-btm-second-part {
-  color: #f4f4fd;
+  color: var(--additional-background-color);
 }
 /* ============================= /LOGO =============================*/
 /* ============================= HEADER =============================*/
