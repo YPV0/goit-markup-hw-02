@@ -110,6 +110,11 @@ a {
   border-radius: 4px;
   color: var(--secondary-color);
 }
+.service-button:hover,
+.service-button:focus {
+  background-color: var(--link-hover-color);
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
