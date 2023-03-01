@@ -79,6 +79,7 @@ a {
 
 .contact-items a {
   color: rgba(67, 68, 85, 1);
+  font-style: normal;
 }
 
 .contact-items a:hover {
