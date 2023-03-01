@@ -5,6 +5,7 @@
   --additional-background-color: #f4f4fd; /* Team and menu button bg color, logo bottom 2nd part*/
   --footer-text-color: #e7e9fc; /*Footer text color*/
   --main-btn-logo-txt-color: #4d5ae5; /* Logo, service button , menu button color*/
+  --contact-items-color: rgba(67, 68, 85, 1);
 }
 
 a {
@@ -78,7 +79,7 @@ a {
 }
 
 .contact-items a {
-  color: rgba(67, 68, 85, 1);
+  color: var(--contact-items-color);
   font-style: normal;
 }
 
