@@ -1,0 +1,153 @@
+:root {
+  --main-color: #2e2f42;
+  --secondary-color: white;
+  --link-hover-color: rgba(64, 75, 191, 1);
+  --additional-background-color: #f4f4fd;
+  --footer-text-color: #e7e9fc;
+  --main-btn-logo-txt-color: #4d5ae5;
+  --menu-btn-hover-color: #404bbf;
+}
+
+a {
+  text-decoration: none;
+}
+.list {
+  list-style: none;
+}
+/* ============================= COMPONENTS =============================*/
+.small-text {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.menu-text {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.card-title-text {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.secondary-title {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+
+/* ============================= /COMPONENTS =============================*/
+/* ============================= LOGO =============================*/
+
+.logo {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.logo-first-part {
+  color: var(--main-btn-logo-txt-color);
+}
+.logo-second-part {
+  color: var(--main-color);
+}
+.logo-btm-second-part {
+  color: #f4f4fd;
+}
+/* ============================= /LOGO =============================*/
+/* ============================= HEADER =============================*/
+
+.nav-items-left a {
+  color: var(--main-color);
+}
+.nav-items-left a:hover,
+.nav-items-left a:focus {
+  color: var(--link-hover-color);
+}
+
+.contact-items a {
+  color: rgba(67, 68, 85, 1);
+}
+
+.contact-items a:hover {
+  color: var(--link-hover-color);
+}
+/* ============================= /HEADER =============================*/
+/* ============================= MAIN =============================*/
+.page-title {
+  background-color: var(--main-color);
+}
+.title {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  color: var(--secondary-color);
+}
+.service-button {
+  background-color: var(--main-btn-logo-txt-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  color: var(--secondary-color);
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.team {
+  background-color: var(--additional-background-color);
+}
+.card {
+  background-color: var(--secondary-color);
+}
+/* ============================= /MAIN =============================*/
+/* ============================= FOOTER =============================*/
+footer {
+  background-color: var(--main-color);
+  color: var(--footer-text-color);
+}
+/* ============================= FOOTER =============================*/
+
+/*================================PORTFOLIO===========================*/
+.menu-button {
+  background-color: var(--additional-background-color);
+  border: 1px solid #e7e9fc;
+  border-radius: 4px;
+  color: var(--main-btn-logo-txt-color);
+}
+.menu-button:hover,
+.menu-button:focus {
+  background-color: var(--menu-btn-hover-color);
+  color: var(--secondary-color);
+}
+
+/*================================/PORTFOLIO===========================*/
