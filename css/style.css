@@ -1,11 +1,11 @@
 :root {
   --main-color: #2e2f42; /* Logo/hero/footer/nav_items color*/
-  --secondary-color: white; /* Title/Button/Cards*/
-  --link-hover-color: rgba(64, 75, 191, 1); /* header links hover color*/
+  --secondary-color: #fff; /* Title/Button/Cards*/
+  --link-hover-color: #404bbf; /* header links hover color*/
   --additional-background-color: #f4f4fd; /* Team and menu button bg color, logo bottom 2nd part*/
   --footer-text-color: #e7e9fc; /*Footer text color*/
   --main-btn-logo-txt-color: #4d5ae5; /* Logo, service button , menu button color*/
-  --contact-items-color: rgba(67, 68, 85, 1);
+  --contact-items-color: #434455;
 }
 
 a {
@@ -14,33 +14,25 @@ a {
 .list {
   list-style: none;
 }
-/* ============================= COMPONENTS =============================*/
-.small-text {
-  font-family: "Roboto", sans-serif;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-}
-.menu-text {
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-}
 
-.card-title-text {
+body {
   font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  background-color: var(--secondary-color);
+}
+/* ============================= COMPONENTS =============================*/
+.section-text {
+  line-height: 1.5;
   font-weight: 500;
+  letter-spacing: 0.02em;
+}
+.section-subtitle {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--main-color);
 }
-.secondary-title {
-  font-family: "Roboto", sans-serif;
-  font-weight: 700;
-  font-size: 36px;
+.section-title {
   line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
@@ -55,12 +47,11 @@ a {
   font-weight: 800;
   font-size: 18px;
   line-height: 1.33;
-  letter-spacing: 0.03em;
   text-transform: uppercase;
-}
-.logo-first-part {
+  letter-spacing: 0.03em;
   color: var(--main-btn-logo-txt-color);
 }
+
 .logo-second-part {
   color: var(--main-color);
 }
@@ -70,30 +61,30 @@ a {
 /* ============================= /LOGO =============================*/
 /* ============================= HEADER =============================*/
 
-.nav-items-left a {
+.nav-link {
   color: var(--main-color);
 }
-.nav-items-left a:hover,
-.nav-items-left a:focus {
+.nav-link:hover,
+.nav-link:focus {
   color: var(--link-hover-color);
 }
 
-.contact-items a {
+.address-item {
   color: var(--contact-items-color);
   font-style: normal;
+  line-height: 1.5;
 }
 
-.contact-items a:hover {
+.address-item:hover,
+.address-item:focus {
   color: var(--link-hover-color);
 }
 /* ============================= /HEADER =============================*/
 /* ============================= MAIN =============================*/
-.page-title {
+.hero {
   background-color: var(--main-color);
 }
-.title {
-  font-family: "Roboto", sans-serif;
-  font-weight: 700;
+.hero-title {
   font-size: 56px;
   line-height: 1.07;
   color: var(--secondary-color);
@@ -132,16 +123,26 @@ a {
 /* ============================= FOOTER =============================*/
 footer {
   background-color: var(--main-color);
+}
+
+.footer-text {
   color: var(--footer-text-color);
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 /* ============================= FOOTER =============================*/
 
 /*================================PORTFOLIO===========================*/
+
 .menu-button {
   background-color: var(--additional-background-color);
   border: 1px solid #e7e9fc;
   border-radius: 4px;
   color: var(--main-btn-logo-txt-color);
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  font-family: inherit;
 }
 .menu-button:hover,
 .menu-button:focus {
