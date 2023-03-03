@@ -5,7 +5,7 @@
   --additional-background-color: #f4f4fd; /* Team and menu button bg color, logo bottom 2nd part*/
   --footer-text-color: #e7e9fc; /*Footer text color*/
   --main-btn-logo-txt-color: #4d5ae5; /* Logo, service button , menu button color*/
-  --contact-items-color: #434455;
+  --section-text-color: #434455;
 }
 
 a {
@@ -22,17 +22,19 @@ body {
 }
 /* ============================= COMPONENTS =============================*/
 .section-text {
+  color: var(--section-text-color);
   line-height: 1.5;
-  font-weight: 500;
   letter-spacing: 0.02em;
 }
 .section-subtitle {
+  font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--main-color);
 }
 .section-title {
+  font-size: 36px;
   line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
@@ -63,6 +65,9 @@ body {
 
 .nav-link {
   color: var(--main-color);
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 .nav-link:hover,
 .nav-link:focus {
@@ -70,9 +75,10 @@ body {
 }
 
 .address-item {
-  color: var(--contact-items-color);
+  color: var(--section-text-color);
   font-style: normal;
   line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 .address-item:hover,
@@ -88,12 +94,17 @@ body {
   font-size: 56px;
   line-height: 1.07;
   color: var(--secondary-color);
+  letter-spacing: 0.02em;
 }
 .service-button {
   background-color: var(--main-btn-logo-txt-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   color: var(--secondary-color);
+  font-family: inherit;
+  line-height: 1.5;
+  font-weight: 500;
+  letter-spacing: 0.04em;
 }
 .service-button:hover,
 .service-button:focus {
